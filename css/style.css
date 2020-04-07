@@ -2,6 +2,10 @@
 
 /* 共通部分 */
 
+body {
+  font-family: "Raleway","Lato", sans-serif;
+}
+
 .inner {
   width: 1100px;
   margin: 0 auto;
@@ -38,7 +42,12 @@
   float: right;
   font-size: 12px;
   padding: 14px 12px;
+  transition: 0.3s;
   width: min-content;
+}
+
+.contact-button:hover {
+  color: #333;
 }
 
 /* headerここまで */
@@ -71,7 +80,7 @@
   text-align: center;
 }
 /* Bolt Themeここまで */
-/* SmartPhoneここから */
+/* what we can doここから */
 
 .smartphone_box {
   background-color: #74cfae;
@@ -103,8 +112,8 @@
   line-height: 35px;
 }
 
-/* SmartPhoneここまで */
-/* picturesここから */
+/* what we can doここまで */
+/* our latest workここから */
 
 .pictures_box {
   background-color: #f2f2f2;
@@ -124,6 +133,12 @@
   display: inline-block;
   margin-left: 100px;
   margin-top: 40px;
+  opacity: 0.7;
+  transition: 0.3s;
+}
+
+.picture-jpg:hover {
+  opacity: 1;
 }
 
 .picture-jpg:nth-child(3n+1) {
@@ -154,11 +169,16 @@
   font-size: 12px;
   margin-left: 90px;
   padding: 14px 20px;
+  transition: 0.3s;
   vertical-align: top;
 }
 
-/* picturesここまで */
-/* circleここから */
+.pictures-button:hover {
+  color: #333;
+}
+
+/* our latest workここまで */
+/* our skillsここから */
 
 .circle_box {
   background-color: #4e4e4e;
@@ -192,7 +212,7 @@
   margin-top: 10px;
 }
 
-/* circleここまで */
+/* our skillsここまで */
 /* SNSここから */
 
 .sns_box {
