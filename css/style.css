@@ -22,6 +22,7 @@ body {
   width: 100%;
   position: fixed;
   padding: 15px 0;
+  z-index: 1;
 }
 
 .clearfix::after {
@@ -135,12 +136,13 @@ body {
   margin-left: 100px;
 }
 
-.picture-hover {
-  opacity: 0.7;
-  transition: 0.3s;
+.img-jpg-hover {
+  opacity: .7;
+  transition: .3s;
+  z-index: 2;
 }
 
-.picture-hover:hover {
+.img-jpg-hover:hover {
   opacity: 1;
 }
 
@@ -230,13 +232,15 @@ body {
 
 .sns-block {
   display: inline-block;
+  width: 185px;
 }
 
 .sns-icon {
   color: #74cfae;
   font-size: 45px;
-  padding: 20px 70px;
+  padding: 30px 0;
   transition: 0.3s;
+  width: 100%;
 }
 
 .sns-icon:hover {
