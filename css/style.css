@@ -76,7 +76,7 @@ body {
 .free {
   color: #c0c0c0;
   font-size: 30px;
-  padding-top: 20px;
+  margin-top: 20px;
   text-align: center;
 }
 /* Bolt Themeここまで */
@@ -87,15 +87,15 @@ body {
   padding-top: 50px;
 }
 
-.iphone-picture {
-  float: left;
-}
-
 .iphone {
+  float: left;
   vertical-align: bottom;
 }
+
 .smartphone_text_box {
-  margin-left: 357px;
+  float: left;
+  width: 65%;
+  margin-left: 160px;
 }
 
 .whatwecando {
@@ -127,17 +127,20 @@ body {
 
 .pictures {
   font-size: 0;
+  margin-top: 40px;
 }
 
 .picture-jpg {
   display: inline-block;
   margin-left: 100px;
-  margin-top: 40px;
+}
+
+.picture-hover {
   opacity: 0.7;
   transition: 0.3s;
 }
 
-.picture-jpg:hover {
+.picture-hover:hover {
   opacity: 1;
 }
 
@@ -194,12 +197,12 @@ body {
 
 .circle_content_box {
   text-align: center;
+  margin-top: 70px;
 }
 
 .circles {
   display: inline-block;
   margin-left: 180px;
-  margin-top: 70px;
 }
 
 .circles:first-child {
@@ -223,6 +226,10 @@ body {
 
 .snsmark_box {
   text-align: center;
+}
+
+.sns-block {
+  display: inline-block;
 }
 
 .sns-icon {
