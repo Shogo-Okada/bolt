@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+/* 共通部分 */
+
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.text-decoration {
+  text-decoration: none;
+}
+
+/* header */
+
+.header {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  padding: 15px 0;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+.fa-bolt {
+  font-size: 40px;
+  float: left;
+  color: #4e4e4e;
+}
+
+.contact-button {
+  background-color: #74cfae;
+  color: #fff;
+  float: right;
+  font-size: 12px;
+  padding: 14px 12px;
+  width: min-content;
+}
+
+/* headerここまで */
+
+/* main */
+
+.main {
+  padding-top: 70px;
+}
+
+/* Bolt Themeここから */
+
+.bolttheme_box {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 250px 0;
+}
+
+.bolttheme {
+  color: #74cfae;
+  font-size: 90px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.free {
+  color: #c0c0c0;
+  font-size: 30px;
+  padding-top: 20px;
+  text-align: center;
+}
+/* Bolt Themeここまで */
+/* SmartPhoneここから */
+
+.smartphone_box {
+  background-color: #74cfae;
+  padding-top: 50px;
+}
+
+.iphone-picture {
+  float: left;
+}
+
+.iphone {
+  vertical-align: bottom;
+}
+.smartphone_text_box {
+  margin-left: 357px;
+}
+
+.whatwecando {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.smartphone_text {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+
+/* SmartPhoneここまで */
+/* picturesここから */
+
+.pictures_box {
+  background-color: #f2f2f2;
+  padding: 60px 0 70px;
+}
+
+.picturestheme {
+  font-size: 24px;
+  text-align: center;
+}
+
+.pictures {
+  font-size: 0;
+}
+
+.picture-jpg {
+  display: inline-block;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.picture-jpg:nth-child(3n+1) {
+  margin-left: 0;
+}
+
+.picture-jpg:nth-child(n+4) {
+  margin-top: 80px;
+}
+
+.pictures_text_box {
+  margin-top: 90px;
+  text-align: center;
+}
+
+.pictures_text {
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+
+.pictures-button {
+  background-color: #74cfae;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-size: 12px;
+  margin-left: 90px;
+  padding: 14px 20px;
+  vertical-align: top;
+}
+
+/* picturesここまで */
+/* circleここから */
+
+.circle_box {
+  background-color: #4e4e4e;
+  width: 100%;
+  padding: 70px 0 100px;
+}
+
+.circletheme {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+.circle_content_box {
+  text-align: center;
+}
+
+.circles {
+  display: inline-block;
+  margin-left: 180px;
+  margin-top: 70px;
+}
+
+.circles:first-child {
+  margin-left: 0;
+}
+
+.circle_text {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* circleここまで */
+/* SNSここから */
+
+.sns_box {
+  background-color: #f2f2f2;
+  width: 100%;
+  padding: 200px 0;
+}
+
+.snsmark_box {
+  text-align: center;
+}
+
+.sns-icon {
+  color: #74cfae;
+  font-size: 45px;
+  padding: 20px 70px;
+  transition: 0.3s;
+}
+
+.sns-icon:hover {
+  background-color: #fff;
+}
+
+/* SNSここまで */
+/* mainここまで */
+
+/* footer */
+
+.footer {
+  background-color: #74cfae;
+  padding: 20px 0 25px;
+  width: 100%;
+}
+
+.footer_text {
+  color: #fff;
+  font-size: 16px;
+  text-align: right;
+}
+
+/* footerここまで */
