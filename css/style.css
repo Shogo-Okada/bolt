@@ -6,6 +6,11 @@ body {
   font-family: "Raleway","Lato", sans-serif;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .inner {
   width: 1100px;
   margin: 0 auto;
@@ -22,7 +27,7 @@ body {
   width: 100%;
   position: fixed;
   padding: 15px 0;
-  z-index: 1;
+  z-index: 100;
 }
 
 .clearfix::after {
@@ -47,6 +52,9 @@ body {
   width: min-content;
 }
 
+
+
+
 .contact-button:hover {
   color: #333;
 }
@@ -56,7 +64,7 @@ body {
 /* main */
 
 .main {
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 /* Bolt Themeここから */
@@ -134,6 +142,10 @@ body {
 .picture-jpg {
   display: inline-block;
   margin-left: 100px;
+}
+
+.img-picture-hover {
+  display: inline-block;
 }
 
 .img-jpg-hover {
@@ -265,3 +277,139 @@ body {
 }
 
 /* footerここまで */
+
+
+@media screen and (max-width:1199px){
+  /*画面幅が768px~1199pxまで(TAB)の時*/
+
+
+  /* 共通部分 */
+  .inner {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .center-sp-tab {
+    text-align: center;
+  }
+
+  .iphone,
+  .smartphone_text_box {
+    float: none;
+    margin: 0 auto;
+  }
+
+  .whatwecando {
+    margin-top: 20px;
+  }
+
+  .smartphone_box {
+    padding-bottom: 25px;
+  }
+
+  /* Our latest work */
+
+  .pictures {
+    text-align: center;
+  }
+
+  .picture-jpg {
+    margin-top: 0;
+    margin-left: 0;
+    display: block;
+    }
+    
+    .picture-jpg:nth-child(n+5) {
+      margin-top: 0;
+  }
+
+  .pictures_text_box {
+    margin-top: 80px;
+  }
+
+  .br-tab-sp {
+    display: none;
+  }
+
+  .pictures-button {
+    margin-left: 0;
+    margin-top: 40px;
+  }
+
+  /* Our skills */
+
+  .circles:first-child {
+    margin-top: 0;
+  }
+
+  .circles {
+    margin-top: 88px;
+    margin-left: 0;
+    display: block;
+  }
+
+  /* footer */
+
+  .footer_text {
+    margin-right: 15px;
+  }
+}
+
+
+
+@media screen and (max-width:767px){
+  /*画面幅が767pxまで(SP)の時*/
+
+
+  /* header */
+  .contact-button {
+    display: none;
+  }
+
+  /* ハンバーガー枠 */
+.checkbox {
+  float: right;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* ハンバーガー線 */
+.line {
+  width: 20px;
+  height: 2px;
+  background-color: #ddd;
+  margin: 7px;
+}
+
+
+  /* Bolt Theme */
+  .bolttheme_box {
+    padding-top: 160px;
+    padding-bottom: 130px;
+  }
+
+  .bolttheme {
+    font-size: 80px;
+  }
+
+  /* SNS-Icon */
+
+  .sns_box {
+    padding: 50px 0;
+  }
+
+  .sns-block {
+    display: block;
+    margin: 0 auto;
+  }
+
+}
+
+
+
+
+
+
+
+
