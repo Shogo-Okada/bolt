@@ -6,6 +6,10 @@ body {
   font-family: "Raleway","Lato", sans-serif;
 }
 
+p {
+  font-family: "Lato", "Raleway", sans-serif;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -103,7 +107,7 @@ img {
 
 .smartphone_text_box {
   float: left;
-  width: 65%;
+  width: 62%;
   margin-left: 160px;
 }
 
@@ -286,7 +290,7 @@ img {
 
   /* 共通部分 */
   .inner {
-    max-width: 97%;
+    width: 97%;
     height: auto;
   }
 
@@ -330,7 +334,7 @@ img {
       margin-top: 0;
   }
 
-  .picture-jpg:nth-child(3n-2) {
+  .picture-jpg:nth-child(3n+1) {
       margin-top: 80px;
     }
     
