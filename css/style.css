@@ -245,6 +245,8 @@ img {
 
 .snsmark_box {
   text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .sns-block {
@@ -310,7 +312,7 @@ img {
     width: 100%;
   }
 
-  .whatwecando {
+  .smartphone_text_box {
     margin-top: 20px;
   }
 
@@ -376,6 +378,7 @@ img {
   .footer_text {
     margin-right: 15px;
   }
+
 }
 
 
@@ -420,6 +423,10 @@ img {
 
   .sns_box {
     padding: 50px 0;
+  }
+
+  .snsmark_box {
+    display: block;
   }
 
   .sns-block {
